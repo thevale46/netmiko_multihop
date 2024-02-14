@@ -115,6 +115,7 @@ def jump_to(self, **kwargs):
     if ssh_accept_host_pattern in result:
         self.send_command(ssh_accept_host_command, ssh_password_pattern)
     self.write_channel(target_password + "\n")
+    self.send_command("\n", r"(continue:)|(#)")
 
     self.__jump_device_list.append(
         {"ip": self.host, "device_type": self.device_type, "username": self.username}
