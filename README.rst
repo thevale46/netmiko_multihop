@@ -85,8 +85,8 @@ Usage
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/jinjamator/netmiko_multihop/issues
-- Source Code: https://github.com/jinjamator/netmiko_multihop
+- Issue Tracker: https://github.com/thevale46/netmiko_multihop//issues
+- Source Code: https://github.com/thevale46/netmiko_multihop/
 
 License
 -----------------
